@@ -47,3 +47,5 @@ while True:
     #Use Python Function and appropriate Exceptions to capture errors during runtime.
     except ValueError:
         print("Invalid input. Please enter a valid number.")
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero. Please enter a non-zero value for the second number.")
