@@ -4,6 +4,9 @@
 # Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication and Division).
 operation = str(input("Please choose among the four operation - Addition, Subtraction, Multiplication, Division: "))
 # Ask the user for two numbers
+print("Kindly input two numbers.")
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
 # Perform the calculation based on the operation that the user wants
 # Display the result
 # Ask if the user wants to try again or not.
