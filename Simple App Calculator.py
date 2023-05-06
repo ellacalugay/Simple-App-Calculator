@@ -23,6 +23,7 @@ elif operation == "Division":
 else:
     print("Invalid Operation")
 # Display the result
+print("Results", result)
 # Ask if the user wants to try again or not.
 # If yes, repeat the process.
 # If no, Display “Thank you!” and exit the program.
