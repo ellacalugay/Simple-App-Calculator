@@ -51,3 +51,5 @@ while True:
         print("Error: Cannot divide by zero. Please enter a non-zero value for the second number.")
     except Exception as e:
         print("An error occurred:", e)
+    finally:
+        print("Simple App Calculator.")
