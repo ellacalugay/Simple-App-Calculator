@@ -29,9 +29,11 @@ while True:
         result = num1 / num2
     else:
         print("Invalid Operation")
-
+        result = None
     # Display the result
-    print("Results", result)
+    if result is not None:
+        print("Results:", result)
+        print("Operation completed.")
 
     # Ask if the user wants to try again or not.
     # If yes, repeat the process.
