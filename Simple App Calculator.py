@@ -20,6 +20,11 @@ print(("\033[38;5;218m" + """
 |_____________________|
 """+ "\033[0m"))
 
+# Import the necessary module 
+import tkinter as tk
+from tkinter import ttk
+from tkinter import messagebox
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
