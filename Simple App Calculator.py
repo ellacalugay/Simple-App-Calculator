@@ -32,4 +32,6 @@ while True:
     # If no, Display “Thank you!” and exit the program.
     if try_again == "no":
         print("Thank you.")
+        break # exit the loop
+    
     # Use Python Function and appropriate Exceptions to capture errors during runtime.
