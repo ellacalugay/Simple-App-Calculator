@@ -5,10 +5,15 @@
 while True:
     # Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication and Division).
     operation = str(input("Please choose among the four operation - Addition, Subtraction, Multiplication, Division: "))
+
     # Ask the user for two numbers
     print("Kindly input two numbers.")
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
+
+    # Initizalize result variable.
+    result = ()
+
     # Perform the calculation based on the operation that the user wants
     if operation == "Addition":
         # If the operation is Addition, add the two numbers.
@@ -24,8 +29,10 @@ while True:
         result = num1 / num2
     else:
         print("Invalid Operation")
+
     # Display the result
     print("Results", result)
+
     # Ask if the user wants to try again or not.
     # If yes, repeat the process.
     try_again = input("Do you want to try again? (yes/no): ")
@@ -33,5 +40,5 @@ while True:
     if try_again == "no":
         print("Thank you.")
         break # exit the loop
-    
+
     # Use Python Function and appropriate Exceptions to capture errors during runtime.
