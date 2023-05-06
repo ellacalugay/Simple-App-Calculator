@@ -28,4 +28,6 @@ print("Results", result)
 # If yes, repeat the process.
 try_again = input("Do you want to try again? (yes/no): ")
 # If no, Display “Thank you!” and exit the program.
+if try_again == "no":
+    print("Thank you.")
 # Use Python Function and appropriate Exceptions to capture errors during runtime.
