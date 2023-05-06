@@ -49,3 +49,5 @@ while True:
         print("Invalid input. Please enter a valid number.")
     except ZeroDivisionError:
         print("Error: Cannot divide by zero. Please enter a non-zero value for the second number.")
+    except Exception as e:
+        print("An error occurred:", e)
