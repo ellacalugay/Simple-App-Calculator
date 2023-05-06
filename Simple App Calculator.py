@@ -11,6 +11,9 @@ num2 = float(input("Enter second number: "))
 if operation == "Addition":
     # If the operation is Addition, add the two numbers.
     result = num1 + num2
+elif operation == "Subtraction": 
+    # If the operation is Subtraction, subtract the second number from the first number
+    result = num1 - num2
 # Display the result
 # Ask if the user wants to try again or not.
 # If yes, repeat the process.
