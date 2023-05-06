@@ -17,6 +17,9 @@ elif operation == "Subtraction":
 elif operation == "Multiplication": 
     # If the operation is Multiplication, multiply the two numbers.
     result = num1 * num2
+elif operation == "Division": 
+    # If the operation is Division, divide the first number by the second number.
+    result = num1 / num2
 # Display the result
 # Ask if the user wants to try again or not.
 # If yes, repeat the process.
