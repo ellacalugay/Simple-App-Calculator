@@ -20,6 +20,8 @@ elif operation == "Multiplication":
 elif operation == "Division": 
     # If the operation is Division, divide the first number by the second number.
     result = num1 / num2
+else:
+    print("Invalid Operation")
 # Display the result
 # Ask if the user wants to try again or not.
 # If yes, repeat the process.
