@@ -132,3 +132,7 @@ def clear():
     entry_num1.delete(0, tk.END)
     # Delete the contents of the second number entry widget
     entry_num2.delete(0, tk.END)
+
+# Add event bindings
+button_calculate.config(command=calculate)
+button_clear.config(command=clear)
