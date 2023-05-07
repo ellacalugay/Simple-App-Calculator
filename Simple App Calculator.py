@@ -66,6 +66,10 @@ entry_num2.grid(row=2, column=1, padx=5)
 frame_buttons = ttk.Frame(root)
 frame_buttons.pack(pady=10)
 
+# Create a button to calculate the result
+button_calculate = tk.Button(frame_buttons, text="Calculate", bg='yellow')
+button_calculate.pack(side=tk.LEFT, padx=5)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
