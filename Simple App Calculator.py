@@ -130,3 +130,5 @@ def clear():
     combo_operation.set("")
     # Delete the contents of the first number entry widget
     entry_num1.delete(0, tk.END)
+    # Delete the contents of the second number entry widget
+    entry_num2.delete(0, tk.END)
