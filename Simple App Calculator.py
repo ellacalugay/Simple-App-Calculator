@@ -34,6 +34,10 @@ root.configure(background='pink')
 style = ttk.Style()
 style.configure('TButton', font=('Helvetica', 12))
 
+# Create widgets
+label_header = tk.Label(root, text="Simple Calculator App", font=('Helvetica', 16, 'bold'), bg='light blue')
+label_header.pack(pady=10)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
