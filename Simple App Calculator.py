@@ -56,6 +56,12 @@ label_num1.grid(row=1, column=0, padx=5)
 entry_num1 = ttk.Entry(frame_input)
 entry_num1.grid(row=1, column=1, padx=5)
 
+# Create a label and entry for the second number input
+label_num2 = ttk.Label(frame_input, text="Second number:", foreground='gold', background="maroon")
+label_num2.grid(row=2, column=0, padx=5)
+entry_num2 = ttk.Entry(frame_input)
+entry_num2.grid(row=2, column=1, padx=5)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
