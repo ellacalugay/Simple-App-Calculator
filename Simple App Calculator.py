@@ -128,3 +128,5 @@ def calculate():
 def clear():
     # Clear the selected operation in the combobox
     combo_operation.set("")
+    # Delete the contents of the first number entry widget
+    entry_num1.delete(0, tk.END)
