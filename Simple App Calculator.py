@@ -46,6 +46,10 @@ frame_input.pack(pady=15)
 label_operation = ttk.Label(frame_input, text="Choose an operation:", foreground="black", background="light coral", font=(20))
 label_operation.grid(row=0, column=0, padx=5)
 
+# Create a combobox for the operation dropdown and ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication and Division).
+combo_operation = ttk.Combobox(frame_input, values=["Addition", "Subtraction", "Multiplication", "Division"])
+combo_operation.grid(row=0, column=1, padx=5)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
