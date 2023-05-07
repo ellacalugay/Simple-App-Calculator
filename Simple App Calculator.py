@@ -103,19 +103,6 @@ def calculate():
             messagebox.showerror("Error", "Invalid operation selected")
             return
 
-        # Ask if the user wants to try again or not.
-        # If yes, repeat the process.
-        try_again = input("Do you want to try again? (yes/no): ")
-        # If no, Display “Thank you!” and exit the program.
-        if try_again == "no":
-            print("Thank you.")
-
-    #Use Python Function and appropriate Exceptions to capture errors during runtime.
-    except ValueError:
-        print("Invalid input. Please enter a valid number.")
-    except ZeroDivisionError:
-        print("Error: Cannot divide by zero. Please enter a non-zero value for the second number.")
-    except Exception as e:
-        print("An error occurred:", e)
-    finally:
-        print("Simple App Calculator.")
+        # Ask the user if they want to try again
+        answer = messagebox.askquestion("Try Again?", "Do you want to calculate again?")
+        if answer == 'yes':
