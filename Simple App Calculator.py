@@ -100,12 +100,8 @@ def calculate():
             # If the operation is Division, divide the first number by the second number.
             result = num1 / num2
         else:
-            print("Invalid Operation")
-            result = None
-        # Display the result
-        if result is not None:
-            print("Results:", result)
-            print("Operation completed.")
+            messagebox.showerror("Error", "Invalid operation selected")
+            return
 
         # Ask if the user wants to try again or not.
         # If yes, repeat the process.
