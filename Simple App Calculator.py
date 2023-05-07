@@ -80,7 +80,9 @@ def calculate():
     try:
         # Get the selected operation from the combo box
         operation = combo_operation.get()
-        
+        # Get the first number from the entry widget and convert it to a float
+        num1 = float(entry_num1.get())
+
         # Perform the calculation based on the operation that the user wants
         if operation == "Addition":
             # If the operation is Addition, add the two numbers.
