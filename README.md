@@ -1,4 +1,4 @@
-# Simple-App-Calculator
+# Simple-App-Calculator | Assignment 5
 
 # Programming Exercise:
 1.  The application will ask the user to choose one of the 
