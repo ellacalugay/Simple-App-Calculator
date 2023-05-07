@@ -136,3 +136,6 @@ def clear():
 # Add event bindings
 button_calculate.config(command=calculate)
 button_clear.config(command=clear)
+
+# Start the GUI
+root.mainloop()
