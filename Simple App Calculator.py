@@ -126,3 +126,5 @@ def calculate():
     
 # Define function
 def clear():
+    # Clear the selected operation in the combobox
+    combo_operation.set("")
