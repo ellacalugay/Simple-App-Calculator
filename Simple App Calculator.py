@@ -42,6 +42,10 @@ label_header.pack(pady=10)
 frame_input = ttk.Frame(root)
 frame_input.pack(pady=15)
 
+# Create a label for the operation dropdown 
+label_operation = ttk.Label(frame_input, text="Choose an operation:", foreground="black", background="light coral", font=(20))
+label_operation.grid(row=0, column=0, padx=5)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
