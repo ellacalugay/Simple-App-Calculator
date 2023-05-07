@@ -119,4 +119,5 @@ def calculate():
     
     except ValueError: # if there is a value error
         messagebox.showerror("Error", "Invalid input. Please enter a valid number.")
-        
+    except ZeroDivisionError:  # if there is a zero division error
+        messagebox.showerror("Error", "Cannot divide by zero. Please enter a non-zero value for the second number.")
