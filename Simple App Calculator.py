@@ -106,3 +106,7 @@ def calculate():
         # Ask the user if they want to try again
         answer = messagebox.askquestion("Try Again?", "Do you want to calculate again?")
         if answer == 'yes':
+            # Clear the input fields
+            combo_operation.set("")
+            entry_num1.delete(0, tk.END)
+            entry_num2.delete(0, tk.END)
