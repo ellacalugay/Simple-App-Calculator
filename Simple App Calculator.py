@@ -141,3 +141,5 @@ button_clear.config(command=clear)
 
 # Start the GUI
 root.mainloop()
+
+# End of the code.
