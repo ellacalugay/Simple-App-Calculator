@@ -30,6 +30,10 @@ root = tk.Tk()
 root.title("Simple Calculator")
 root.configure(background='pink')
 
+# Set style
+style = ttk.Style()
+style.configure('TButton', font=('Helvetica', 12))
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
