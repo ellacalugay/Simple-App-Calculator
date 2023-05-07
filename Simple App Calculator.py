@@ -123,3 +123,6 @@ def calculate():
         messagebox.showerror("Error", "Cannot divide by zero. Please enter a non-zero value for the second number.")
     except Exception as e: # if there is any other exception
         messagebox.showerror("Error", f"An error occurred: {e}") # show an error message with the exception information
+    
+# Define function
+def clear():
