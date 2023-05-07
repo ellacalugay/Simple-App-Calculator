@@ -110,3 +110,6 @@ def calculate():
             combo_operation.set("")
             entry_num1.delete(0, tk.END)
             entry_num2.delete(0, tk.END)
+        else:
+            # Close the application
+            root.destroy()
