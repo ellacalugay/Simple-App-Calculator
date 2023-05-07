@@ -114,6 +114,8 @@ def calculate():
             entry_num1.delete(0, tk.END)
             entry_num2.delete(0, tk.END)
         else:
+            # Display "Thank you" message
+            messagebox.showinfo("Exit", "Thank you for using our program!")
             # Close the application
             root.destroy()
     
@@ -139,5 +141,3 @@ button_clear.config(command=clear)
 
 # Start the GUI
 root.mainloop()
-
-# End of the code.
