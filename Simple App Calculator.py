@@ -62,6 +62,10 @@ label_num2.grid(row=2, column=0, padx=5)
 entry_num2 = ttk.Entry(frame_input)
 entry_num2.grid(row=2, column=1, padx=5)
 
+# Create a frame to contain buttons
+frame_buttons = ttk.Frame(root)
+frame_buttons.pack(pady=10)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
