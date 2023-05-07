@@ -119,3 +119,4 @@ def calculate():
     
     except ValueError: # if there is a value error
         messagebox.showerror("Error", "Invalid input. Please enter a valid number.")
+        
