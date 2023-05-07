@@ -20,6 +20,7 @@ print(("\033[38;5;218m" + """
 |_____________________|
 """+ "\033[0m"))
 
+#Pseuodocode
 # Import the necessary module 
 import tkinter as tk
 from tkinter import ttk
@@ -74,9 +75,8 @@ button_calculate.pack(side=tk.LEFT, padx=5)
 button_clear = tk.Button(frame_buttons, text="Clear", bg="red")
 button_clear.pack(side=tk.LEFT, padx=5)
 
-#Pseuodocode
-# Create a while loop with a True condition.
-while True:
+# Define functions
+def calculate():
     try:
         # Perform the calculation based on the operation that the user wants
         if operation == "Addition":
@@ -105,8 +105,7 @@ while True:
         # If no, Display “Thank you!” and exit the program.
         if try_again == "no":
             print("Thank you.")
-            break # exit the loop
-
+            
     #Use Python Function and appropriate Exceptions to capture errors during runtime.
     except ValueError:
         print("Invalid input. Please enter a valid number.")
