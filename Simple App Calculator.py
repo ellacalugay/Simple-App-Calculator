@@ -70,6 +70,10 @@ frame_buttons.pack(pady=10)
 button_calculate = tk.Button(frame_buttons, text="Calculate", bg='yellow')
 button_calculate.pack(side=tk.LEFT, padx=5)
 
+# Create a button to clear the inputs
+button_clear = tk.Button(frame_buttons, text="Clear", bg="red")
+button_clear.pack(side=tk.LEFT, padx=5)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
