@@ -78,6 +78,9 @@ button_clear.pack(side=tk.LEFT, padx=5)
 # Define functions
 def calculate():
     try:
+        # Get the selected operation from the combo box
+        operation = combo_operation.get()
+        
         # Perform the calculation based on the operation that the user wants
         if operation == "Addition":
             # If the operation is Addition, add the two numbers.
@@ -105,7 +108,7 @@ def calculate():
         # If no, Display “Thank you!” and exit the program.
         if try_again == "no":
             print("Thank you.")
-            
+
     #Use Python Function and appropriate Exceptions to capture errors during runtime.
     except ValueError:
         print("Invalid input. Please enter a valid number.")
