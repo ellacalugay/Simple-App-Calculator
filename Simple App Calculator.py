@@ -50,21 +50,16 @@ label_operation.grid(row=0, column=0, padx=5)
 combo_operation = ttk.Combobox(frame_input, values=["Addition", "Subtraction", "Multiplication", "Division"])
 combo_operation.grid(row=0, column=1, padx=5)
 
+# Create a label and entry for the first number input
+label_num1 = ttk.Label(frame_input, text="First number:", foreground='gold', background="maroon")
+label_num1.grid(row=1, column=0, padx=5)
+entry_num1 = ttk.Entry(frame_input)
+entry_num1.grid(row=1, column=1, padx=5)
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
     try:
-        # Ask the user to choose one of the four math operations (Addition, Subtraction, Multiplication and Division).
-        operation = str(input("Please choose among the four operation - Addition, Subtraction, Multiplication, Division: "))
-
-        # Ask the user for two numbers
-        print("Kindly input two numbers.")
-        num1 = float(input("Enter first number: "))
-        num2 = float(input("Enter second number: "))
-
-        # Initizalize result variable.
-        result = ()
-
         # Perform the calculation based on the operation that the user wants
         if operation == "Addition":
             # If the operation is Addition, add the two numbers.
