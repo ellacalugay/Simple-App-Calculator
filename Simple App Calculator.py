@@ -25,6 +25,11 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 
+# Initialize tkinter app
+root = tk.Tk()
+root.title("Simple Calculator")
+root.configure(background='pink')
+
 #Pseuodocode
 # Create a while loop with a True condition.
 while True:
