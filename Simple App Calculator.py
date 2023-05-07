@@ -103,6 +103,9 @@ def calculate():
             messagebox.showerror("Error", "Invalid operation selected")
             return
 
+        # Use Python Function and appropriate Exceptions to capture errors during runtime.
+        messagebox.showinfo("Result", f"The result is: {result}")
+        
         # Ask the user if they want to try again
         answer = messagebox.askquestion("Try Again?", "Do you want to calculate again?")
         if answer == 'yes':
